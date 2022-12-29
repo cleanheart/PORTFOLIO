@@ -1,0 +1,217 @@
+@media(max-width:1199.90px){
+  .testimonial-area .content-wrapper .content-right .info-wrapper .title-wrapper{
+    display: inline-block;
+  }
+}
+
+
+@media(max-width:1099px){
+  header .menu-wrapper{
+    display: none;
+  }
+  header .mobile-bar{
+    display: inline-block;
+  }
+
+}
+
+
+@media(max-width:991.90px){
+  .hero-area{
+    padding-top: 25px;
+  }
+  .hero-area .rsmg{
+    margin-top: 50px;
+  }
+  .hero-area .inner-content-wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero-area .img-wrapper{
+    text-align: center;
+    margin: 0 auto;
+  } 
+  .hero-area .icon-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+  .hero-area .icon-wrapper .my-skill{
+    margin-left: 0px;
+  }
+  .feature-area .content-wrapper .inner{
+    max-width: 45%;
+  }
+  .portfolio-area .content-wrapper .inner{
+    max-width: 45%;
+  }
+  .skill-area .experience-content-wrapper .title-wrapper{
+    display: block;
+  }
+  .skill-area .experience-content-wrapper .country{
+    margin-top: 15px;
+  }
+  .skill-area .experience-content-wrapper .inner-content .title h4{
+    font-size: 23px;
+  }
+  .testimonial-area .content-wrapper{
+    display: inline-block !important;
+  }
+  .testimonial-area .content-wrapper .content-left{
+    min-width: 100%  !important;
+    display: flex;
+  }
+  .testimonial-area .content-wrapper .content-left .card-title{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .testimonial-area .content-wrapper .content-left .img-wrapper img{
+    max-width: 250px;
+  }
+  .testimonial-area .content-wrapper .content-right .button-wrapper .img-wrapper{
+    display: none;
+  }
+  .testimonial-area .slick-dotted button.prev-btn{
+    display: none !important;
+  }
+  .testimonial-area .slick-dotted button.next-btn{
+    display: none !important;
+  }
+  .pricing-area .pricing-content .txt{
+    max-width: 100%;
+  }
+
+
+}
+
+
+@media(max-width:767.90px){
+  .skill-area .experience-content-wrapper .inner-content .title h4{
+    font-size: 25px;
+  }
+  .clients-area .tab-content-wrapper .main-wrapper{
+    flex-basis: 50%;
+  }
+
+}
+
+
+@media(max-width:575px){
+  header .mobile-menu{
+    max-width: 300px;
+  }
+  .hero-area .title h1{
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .hero-area .icon-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-area .icon-wrapper .find-me{
+    margin-bottom: 30px;
+    display: inline-block;
+    margin-right: auto;
+  }
+  .hero-area .icon-wrapper .my-skill{   
+    display: inline-block;
+    margin-right: auto;
+  }
+  .feature-area .content-wrapper .inner{
+    max-width: 95%;
+  }
+  .portfolio-area .content-wrapper .inner{
+    max-width: 95%;
+  }
+  .testimonial-area .main-title .heading{
+    font-size: 40px;
+  }
+
+  .testimonial-area .content-wrapper .content-left{
+    min-width: 100%  !important;
+    display: inline-block;
+    text-align: center;
+  }
+  .testimonial-area .content-wrapper .content-left .img-wrapper img{
+    max-width: 100%;
+  }
+  .testimonial-area .content-wrapper .content-right .info-wrapper{
+    padding: 25px;
+  }
+  .clients-area .main-title .title{
+    font-size: 45px;
+  }
+  .pricing-area .pricing-content .heading-wrapper{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+  }
+  .pricing-area .pricing-content .heading-wrapper .title{
+    margin-bottom: 25px;
+  }
+  .pricing-area .pricing-content .details-wrapper{
+    flex-direction: column;
+  }
+  .blog-area .title{
+    font-size: 35px;
+  }
+  .contact-area .main-heading .title{
+    font-size: 35px;
+  }
+
+}
+
+@media(max-width:440px){
+  .hero-area .title h1{
+    font-size: 29px;
+    line-height: 40px;
+  }
+  .portfolio-area .title h3{
+    font-size: 50px;
+  }
+  .skill-area .title h3{
+    font-size: 50px;
+  }
+  .skill-area .nav-wrapper ul li a{
+    font-size: 16px;
+    padding: 30px 5px;
+  }
+  .skill-area .experience-content-wrapper .inner-content .title h4{
+    font-size: 20px;
+  }
+  
+  .testimonial-area .content-wrapper .content-right .info-wrapper .title-wrapper .title h4{
+    font-size: 20px;
+  }
+  .testimonial-area .content-wrapper .content-right .info-wrapper .title-wrapper .title .date{
+    font-size: 13px;
+  }
+  .clients-area .main-title .title{
+    font-size: 35px;
+  }
+  .clients-area .tab-content-wrapper .main-wrapper{
+    flex-basis: 100%;
+  }
+  .pricing-area .main-title .heading{
+    font-size: 45px;
+  }
+  .pricing-area .pricing-content .main-title{
+    font-size: 23px;
+  }
+  .pricing-area .pricing-wrapper nav ul{
+    display: flex;
+    flex-direction: column;
+  }
+  .pricing-area .pricing-content .timing{
+    flex-direction: column;
+  }
+  .pricing-area .pricing-content .timing .dates{
+    margin-bottom: 10px;
+  }
+  .blog-area .subtitle{
+    letter-spacing: 0px;
+  }
+
+}
