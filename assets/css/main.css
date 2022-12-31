@@ -280,7 +280,7 @@ header .mobile-menu{
   background: #191b1e;
   box-shadow: 0 0 10px 0 rgb(0 0 0 / 70%);
   padding: 25px 35px;
-  position:absolute;
+  position:fixed;
   top: 0;
   overflow-Y: auto;
   left:-100%;
